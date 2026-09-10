@@ -13357,6 +13357,7 @@ GameObject:
   - component: {fileID: 874106233}
   - component: {fileID: 874106232}
   - component: {fileID: 874106231}
+  - component: {fileID: 920092003}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -13364,6 +13365,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &920092003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874106230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363d301169174b5ebd0007a9e1f99b48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LastShift.InteractionSystem
+  interactionDistance: 3
+  interactionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  triggerInteraction: 1
+  interactionKey: 19
+  prompt: {fileID: 0}
 --- !u!114 &874106231
 MonoBehaviour:
   m_ObjectHideFlags: 0
